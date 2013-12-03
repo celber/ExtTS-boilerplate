@@ -4,15 +4,15 @@ module.exports = function(grunt) {
         pkg: grunt.file.readJSON('package.json'),
         typescript: {
             base: {
-                src: ['www/jsapp/**/*.ts'],
+                src: ['**/*.ts'],
                 dest: '.',
                 options: {
-                    module: 'amd',
+                    module: 'commonjs',
                     target: 'es3',
                     base_path: '.',
-                    sourcemap: true,
-                    fullSourceMapPath: true,
-                    declaration: false,
+                    sourcemap: false,
+                    fullSourceMapPath: false,
+                    declaration: false
                 }
             }
         }
