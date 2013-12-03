@@ -1,0 +1,17 @@
+{
+  "name": "App",
+  "version": "0.0.1",
+  "description": "",
+  "dependencies": {},
+  "devDependencies": {
+	  "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.3",
+    "grunt-contrib-uglify": "~0.2.2",
+    "typescript": ">=0.9",
+    "grunt-typescript": ">=0.2.4",
+    "tsd": ">=0.3.1"
+  },
+  "optionalDepencies": {
+  },
+  "author": "Piter Vries"
+}
