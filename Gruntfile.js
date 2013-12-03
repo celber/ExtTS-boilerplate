@@ -4,7 +4,7 @@ module.exports = function(grunt) {
         pkg: grunt.file.readJSON('package.json'),
         typescript: {
             base: {
-                src: ['**/*.ts'],
+                src: ['app/*.ts','*.ts','resources/**/*.ts'],
                 dest: '.',
                 options: {
                     module: 'commonjs',
